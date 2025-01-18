@@ -1,0 +1,23 @@
+#   Simple AFK Plugin by Molfordan
+#   ====== INFO ======
+#   use  '&' to change color codes!
+#   if you set all the values to null or empty, the config will reset to the default settings
+#   placeholder : %player%, %timeout-time%
+#   still under development, if you have any suggestion please send it to discord @scioss.
+
+# the afk message
+afk-message: "&a%player% is now AFK!"
+# after the player AFK
+no-longer-afk: "&a%player% is no longer AFK"
+
+#this will show "Player is now AFK!, Reason : [<reason input by player>], so don't change it if you don't know what you're doing"
+reason : "&aReason" #also no need to add ':' after "Reason"
+
+#timeout message when you're not moving for a certain amount of time
+timeout-message: "&ayou are now AFK after being idle for %timeout-time% minutes"
+
+mention-afk-player-message: "&a%player% is currently AFK"
+
+
+#in minutes
+timeout-time: 2

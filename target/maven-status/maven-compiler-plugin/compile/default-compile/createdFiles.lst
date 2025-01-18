@@ -1,0 +1,7 @@
+org\molfordan\simpleAFKPlugin\setAFKMessage.class
+org\molfordan\simpleAFKPlugin\Main.class
+org\molfordan\simpleAFKPlugin\afkSetTimeoutCommand.class
+org\molfordan\simpleAFKPlugin\afkCommand.class
+org\molfordan\simpleAFKPlugin\reloadCommand.class
+org\molfordan\simpleAFKPlugin\onMentionPlayer.class
+org\molfordan\simpleAFKPlugin\onMoveEvent.class

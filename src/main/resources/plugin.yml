@@ -1,0 +1,18 @@
+name: SimpleAFKPlugin
+version: '1.0'
+main: org.molfordan.simpleAFKPlugin.Main
+api-version: '1.21'
+commands:
+  afk:
+    usage: /afk <reason>
+    description: afk
+  setafkmessage:
+    usage: /setafkmessage [options] [message]
+    aliases: [sam]
+    description: set the afk message
+    permission: simpleafk.admin
+  settimeout:
+    usage: /settimeout [value]
+    aliases: [st]
+    description: set the timeout value
+    permission: simpleafk.admin
